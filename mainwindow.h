@@ -19,5 +19,16 @@ public:
 
 private:
     Ui::CandyBudgeting *ui;
+
+    double balance = 0.0;
+    const QString balanceFile = "balance.txt";
+
+    void loadBalance();
+    void saveBalance();
+    void updateBalance();
+
+private slots:
+    void addClicked();
+    void subtractClicked();
 };
 #endif // MAINWINDOW_H
