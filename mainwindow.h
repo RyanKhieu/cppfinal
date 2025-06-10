@@ -30,5 +30,6 @@ private:
 private slots:
     void addClicked();
     void subtractClicked();
+    void tryClicked();
 };
 #endif // MAINWINDOW_H
